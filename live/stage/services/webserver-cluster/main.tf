@@ -8,5 +8,5 @@ module "webserver_cluster" {
     instance_type = "t2.micro"
     min_number = 2
     max_number = 5
-
+    #enable_autoscaling = false /*Uncomment this statement when you are importing module from v0.0.3*/
 }
