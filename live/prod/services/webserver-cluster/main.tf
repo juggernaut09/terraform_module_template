@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 module "webserver_cluster" {
-    source = "git@github.com:venkattejaRaavi/modules.git//services/webserver-cluster?ref=v0.0.3"
+    source = "git@github.com:venkattejaRaavi/modules.git//services/webserver-cluster?ref=v0.0.4"
     cluster_name = "webservers-prod"
     instance_type = "t2.micro"
     min_size = 2
